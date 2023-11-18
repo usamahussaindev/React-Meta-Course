@@ -20,7 +20,7 @@ there are two ways:
 2.using name export
 
 
-1 - default exports
+1 - default export
 
 export default function addTwo (a, b){
     console.log(a +b);
@@ -35,6 +35,17 @@ function addTwo(a, b){
 }
 
 export default addTwo;
+
+example 2 
+
+export function addTwo(a, b){
+    console.log(a +b );
+
+}
+
+export function addThree(a, b, c){
+    console.log(a + b + c);
+}
 
 note> Exporting JavaScript modules allows you to make parts of your code accessible to other parts of your program or to external programs. 
 
