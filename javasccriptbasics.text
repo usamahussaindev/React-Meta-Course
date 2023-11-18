@@ -1,0 +1,40 @@
+there are two ways to export javascript modules 
+
+in general, there are two ways to export javascript modeuls
+
+like this one pakage example
+
+function:
+
+function addTwo(a, b){
+     console.log (a + b);
+}
+
+function is small module in source code with logic
+
+now if we want to export this module(function)
+
+there are two ways:
+
+1.using default export
+2.using name export
+
+
+1 - default exports
+
+export default function addTwo (a, b){
+    console.log(a +b);
+
+}
+
+2 - named export
+
+function addTwo(a, b){
+    console.log (a + b);
+
+}
+
+export default addTwo;
+
+note> Exporting JavaScript modules allows you to make parts of your code accessible to other parts of your program or to external programs. 
+
