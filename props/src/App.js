@@ -7,7 +7,6 @@ import Intro3 from './components/Intro3';
 import Promo from './components/Promo';
 import './App.css';
 
-
 function App() {
   return (
     <div>

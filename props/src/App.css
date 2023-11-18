@@ -1,0 +1,158 @@
+/* Add this CSS to your stylesheets */
+
+footer {
+  background-color: #e5dede;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+/* Add more styles as needed *
+
+
+/* Add this CSS to your stylesheets */
+
+header {
+  background-color: #3498db;
+  /* Header background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  /* Increase font size */
+  letter-spacing: 2px;
+  /* Add letter spacing */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+}
+
+/* Add more styles as needed */
+
+/* Add this CSS to your stylesheets */
+
+.blog-post-intro {
+  background-color: #f9f9f9;
+  /* Background color for the intro container */
+  border-radius: 8px;
+  /* Add rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  /* Heading color */
+}
+
+p {
+  color: #555;
+  /* Paragraph text color */
+}
+
+.link {
+  color: #007bff;
+  /* Link color */
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  /* Add a smooth transition effect */
+}
+
+.link:hover {
+  color: #0056b3;
+  /* Change link color on hover */
+}
+
+/* Add more styles as needed */
+
+/* Add this CSS to your stylesheets */
+
+.blog-post-intro {
+  background-color: #e6f7ff;
+  /* Background color for the intro container */
+  border-radius: 10px;
+  /* Add rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #004080;
+  /* Heading color */
+  font-size: 1.5em;
+  /* Increase font size */
+}
+
+p {
+  color: #333;
+  /* Paragraph text color */
+  line-height: 1.5;
+  /* Improve readability with increased line height */
+}
+
+.link {
+  color: #0066cc;
+  /* Link color */
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  /* Add a smooth transition effect */
+}
+
+.link:hover {
+  color: #004080;
+  /* Change link color on hover */
+}
+
+/* Add more styles as needed */
+
+.blog-post-intro {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-title {
+  color: #009688;
+  /* or any color you prefer */
+}
+
+.intro-content {
+  margin-top: 15px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.read-more-btn {
+  background-color: #009688;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #00796b;
+}
