@@ -1,0 +1,26 @@
+notes>
+
+there are several ways to import javascript modules just like exporting
+
+Consider importing the same modules  we export in previous notes
+
+now importing it 
+
+"addTwo function"
+
+fucntion addTwo(a + b){
+    console.log( a + b);
+
+}
+
+export deault addTwo;
+
+now import:
+
+import adddTwo from "./addTwo" in this new add.js file;
+
+//rest code goes here and also can use import code fucntionaliity
+
+
+//now this way we can use diffferent modules in different areas of code
+
