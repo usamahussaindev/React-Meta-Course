@@ -30,3 +30,25 @@ my-app
     ├── logo.svg
     ├── serviceWorker.js
     └── setupTests.js
+
+ ## Notes for React 
+
+ follow component-based architecture
+
+ To resolve
+  1 - complex dom-code
+  2 - Spaghetti code
+  2-  Complex layouts
+
+
+JSX elements are typically written in camelCase, like div becomes divElement.
+
+const element = <div>Hello, JSX!</div>;
+const name = "John";
+const greeting = <p>Hello, {name}!</p>;
+
+by this way we can use programming language along with html
+
+cont element = "usama"
+const greeting = <o>Hello, {name}<p>;
+
