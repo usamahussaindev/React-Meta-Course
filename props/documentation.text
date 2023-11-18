@@ -1,0 +1,22 @@
+
+
+## props
+  <Header name="anna" color="purple" />
+
+  pass in parent components 
+
+  and can use to pass data to child components
+
+  like this
+
+  function Header(props) {
+    console.log(props)
+    return (
+        <header>
+            <h1>Usama Hussain {props.name},{props.color}</h1>
+        </header>
+    );
+}
+
+
+props are just like arguments pass in functions and use to manipulate data

@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Header />
+      <Header name="Software " color="Engineering" />
       {/* Other content goes here */}
       <Intro1 />
       <Promo />

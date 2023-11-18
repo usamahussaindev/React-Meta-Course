@@ -156,3 +156,19 @@ p {
 .read-more-btn:hover {
   background-color: #00796b;
 }
+
+
+.promo-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.promo-section h1 {
+  color: #333;
+}
+
+.promo-section h2 {
+  color: #555;
+  font-style: italic;
+}
