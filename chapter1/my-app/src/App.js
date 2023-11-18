@@ -1,12 +1,14 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function Header() {
-  return <h1>
-    hello Word
-  </h1>;
-
-
+  return (
+    <header>
+      <img src={logo} className="App-logo" alt="logo" />
+      <h1>Hello World</h1>
+    </header>
+  );
 }
 
 function App() {

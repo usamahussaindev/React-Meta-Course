@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* This ensures that the header takes the full height of the viewport */
+}
+
+.App-logo {
+  height: 100px;
+  /* Adjust the height of the logo as needed */
+  width: auto;
 }
