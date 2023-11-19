@@ -1,4 +1,5 @@
-import React from "reac
+import React from "react";
+
 
 const bool = false;
 const str1 = "just";
