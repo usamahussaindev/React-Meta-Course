@@ -1,16 +1,28 @@
-import React from 'react';
-import Heading from './components/Heading';
-import Nav from './components/Nav';
+import React from "reac
 
+const bool = false;
+const str1 = "just";
 
-function App() {
+function Example(props) {
   return (
     <div>
-      <Heading name="Software " color="Engineering" />
-      {/* Other content goes here */}
-      <Nav first=" Usama" second=" Hussain" third=" Chaudary" />
+      <h2>
+        The value of the toggleBoolean prop is:{props.toggleBoolean.toString()}
+      </h2>
+      <p>The value of the math prop is: <em>{props.math}</em></p>
+      <p>The value of the str prop is: <em>{props.str}</em></p>
     </div>
   );
-}
+};
 
-export default App;
+export default function App() {
+  return (
+    <div className="App">
+      <Example
+        toggleBoolean={!bool}
+        math={(10 + 20) / 3}
+        str={str1 + ' another ' + 'string'}
+      />
+    </div>
+  );
+};

@@ -1,0 +1,46 @@
+
+Ternary operator
+
+A different way of writing an if...else conditional
+
+traditioanl way
+
+//delecalaration
+let name = 'bob';
+
+
+if (name == 'bob'){
+    console.log ('Hello, bob');
+} else{
+    console.log('Hello, friend');
+
+};
+
+now 
+
+condition ? expression_if_true : expression_if_false
+
+
+example:
+
+let a = 10;
+let b = 20;
+
+let result = x > y ? x : y;
+
+console.log(result);
+
+
+let name = 'usama';
+let age = 22; 
+
+let profile = name == 'usama' ? 'User is Usama' : 'User is not Usama';
+
+console.log(profile);
+
+
+let name = 'asad';
+
+let result = name == 'asad'? 'name is adad' : 'name is not asad';
+
+console.log(result);
