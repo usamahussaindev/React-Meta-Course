@@ -1,12 +1,15 @@
-
-
-import ModeToggler from "./components/ModeToggler";
-
-
 function App() {
+
+
+    function handleClick() {
+        console.log("clicked")
+    }
+
     return (
-        <ModeToggler />
+        <div className="App">
+            <button onClick={handleClick}>Click Me</button>
+        </div>
     );
-};
+}
 
 export default App;
