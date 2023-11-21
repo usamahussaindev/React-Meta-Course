@@ -1,20 +1,11 @@
-import React from "react";
-import avatar from './avatar.png';
-
-function Logo(props) {
-    const userPic = <img src={avatar} />;
-    return userPic;
-
-}
+import "./App.css";
+import Btn from "./components/Btn";
 
 
 function App() {
     return (
-        <div><hi>hello world</hi>
-            <Logo />
-        </div>
+        <Btn />
     );
-}
+};
 
 export default App;
-
