@@ -1,10 +1,11 @@
-import "./App.css";
-import Btn from "./components/Btn";
+
+
+import ModeToggler from "./components/ModeToggler";
 
 
 function App() {
     return (
-        <Btn />
+        <ModeToggler />
     );
 };
 
