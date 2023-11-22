@@ -1,18 +1,13 @@
 import React from 'react';
-import Dog from './components/example2.1/Dog';
-import Puppy from './components/example2.1/Puppy';
-import Bowl from './components/example2.1/Bowl';
-import Promo from './components/Promo';
+import Child from './Child';
 
 function App() {
-
+    const date = new Date()
 
     return (
         <div >
-            <Promo />
-            <Dog />
-            <Bowl />
-            <Puppy />
+            <Child message={date.toLocaleTimeString()} />
+            <h1> Insert the Child Component here.</h1>
         </div>
     );
 }
