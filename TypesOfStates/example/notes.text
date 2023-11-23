@@ -1,0 +1,11 @@
+# topic:
+
+
+# In React, components are the building blocks of a user interface. They can be broadly categorized into two types: stateful and stateless components.
+
+ stateless and statefull components
+
+ stateless components
+   componets with no state defineds.
+
+   stateful (functional) components
