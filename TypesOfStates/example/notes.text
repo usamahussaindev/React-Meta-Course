@@ -9,3 +9,42 @@
    componets with no state defineds.
 
    stateful (functional) components
+
+
+Topics :-
+Array destructuring is a feature in some programming languages, such as JavaScript, Python, and others, 
+that allows you to unpack values from arrays.
+
+// Without array destructuring
+const numbers = [1, 2, 3];
+const firstNumber = numbers[0];
+const secondNumber = numbers[1];
+const thirdNumber = numbers[2];
+
+// With array destructuring
+const [a, b, c] = numbers;
+
+
+// Without array destructuring
+function printNumbers(arr) {
+  console.log(arr[0], arr[1]);
+}
+
+// With array destructuring
+function printNumbers([a, b]) {
+  console.log(a, b);
+}
+
+
+for example
+const  age = [12,12,12];
+
+now destructured array 
+
+const [12,12,12] : age;
+
+Conciseness and Readability: It makes your code more concise and readable by reducing the number of lines needed to extract values from arrays or iterable objects.
+
+Multiple Variable Assignments: You can easily assign multiple variables at once, which can be especially useful when dealing with functions that return arrays or objects.
+
+impotant points: //Lifting state up is coding your app so that the state from the child component is moved to the parent component and the child component simply receives it via props.      
