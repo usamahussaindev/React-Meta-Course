@@ -48,3 +48,11 @@ Conciseness and Readability: It makes your code more concise and readable by red
 Multiple Variable Assignments: You can easily assign multiple variables at once, which can be especially useful when dealing with functions that return arrays or objects.
 
 impotant points: //Lifting state up is coding your app so that the state from the child component is moved to the parent component and the child component simply receives it via props.      
+
+
+useReducer hooks
+
+In React, the useReducer hook is a powerful alternative to the more commonly used
+ useState hook when dealing with complex state logic in your components. It is
+  particularly useful when the next state depends on the previous one 
+and requires more complex logic to update.
