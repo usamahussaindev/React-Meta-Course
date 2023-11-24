@@ -4,6 +4,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact'; // Import the Contact component
+import Conditional from './Conditional';
 
 function App() {
   // existing code...
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       {/* existing code... */}
+      <Conditional />
       <nav>
         <ul>
           <li className="nav-item">
