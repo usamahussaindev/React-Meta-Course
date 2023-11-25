@@ -10,7 +10,14 @@ function App() {
         <h1>Welcome to My React App!</h1>
         <img src={Neno} alt="Neno" />
         {/* Other components or content */}
+
       </header>
+      <header2 className="App-header">
+        <h1>Welcome to My React App!</h1>
+        <img src={Neno} alt="Neno" />
+        {/* Other components or content */}
+
+      </header2>
     </div>
   );
 }
