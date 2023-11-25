@@ -1,0 +1,34 @@
+/* index.css */
+
+/* Style for the calculator container */
+div {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the input field */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style for the operation buttons */
+button {
+  width: 48%;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* Style for the result display */
+p {
+  margin-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+/* index.css */
+
+/* Style for the calculator container */
+.calculator-container {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the input field */
+.calculator-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Style for the operation buttons */
+.calculator-button {
+  width: 48%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+/* Style for the result and input reset buttons */
+.calculator-reset-button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the total display */
+.calculator-total {
+  margin-top: 10px;
+  font-size: 18px;
+}

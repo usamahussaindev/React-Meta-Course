@@ -1,0 +1,42 @@
+/* App.css */
+
+/* Style for the Calculator container */
+.calculator-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the input field */
+.calculator-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for the operation buttons */
+.calculator-button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calculator-button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Style for the total display */
+.calculator-total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

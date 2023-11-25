@@ -1,5 +1,5 @@
 import React from "react";
-
+import './App.css';
 function App() {
 
   const bird1 = new Audio(
@@ -26,7 +26,7 @@ function App() {
     }
   };
 
-  
+
   return (
     <div>
       <button onClick={toggle1}>Caspian Tern 1</button>
